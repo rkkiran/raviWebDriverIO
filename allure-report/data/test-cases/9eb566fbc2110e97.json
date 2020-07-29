@@ -1,0 +1,129 @@
+{
+  "uid" : "9eb566fbc2110e97",
+  "name" : "Given I am on saucedemo login page",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.Given I am on saucedemo login page",
+  "historyId" : "d4ed8333585798823595ebc7c1bd8370",
+  "time" : {
+    "start" : 1596006013446,
+    "stop" : 1596006013960,
+    "duration" : 514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1596006013446,
+        "stop" : 1596006013452,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "466ac96d4bdfda9",
+        "name" : "Response",
+        "source" : "466ac96d4bdfda9.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1596006013453,
+        "stop" : 1596006013557,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae1689dfbbfb8dc7",
+        "name" : "Request",
+        "source" : "ae1689dfbbfb8dc7.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596006013560,
+        "stop" : 1596006013959,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f51d33fb23a334d",
+        "name" : "Screenshot",
+        "source" : "2f51d33fb23a334d.png",
+        "type" : "image/png",
+        "size" : 68971
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on saucedemo login page"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9eb566fbc2110e97.json",
+  "parameterValues" : [ "chrome" ]
+}

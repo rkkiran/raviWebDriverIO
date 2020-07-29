@@ -1,0 +1,234 @@
+{
+  "uid" : "cb12f0df4db34a05",
+  "name" : "When I login with 'standard_user' and 'secret_sauce'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.When I login with 'standard_user' and 'secret_sauce'",
+  "historyId" : "cc55aad4d76f652fa77ee42a31302faa",
+  "time" : {
+    "start" : 1596002232464,
+    "stop" : 1596002235078,
+    "duration" : 2614
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002232470,
+        "stop" : 1596002232504,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f6678091eaf1c6e",
+        "name" : "Request",
+        "source" : "5f6678091eaf1c6e.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "8fd5dcd8f0244bb2",
+        "name" : "Response",
+        "source" : "8fd5dcd8f0244bb2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/1dfffdcf-5971-4246-aaa8-b256cb7040bc/clear",
+      "time" : {
+        "start" : 1596002232513,
+        "stop" : 1596002232573,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/1dfffdcf-5971-4246-aaa8-b256cb7040bc/value",
+      "time" : {
+        "start" : 1596002232580,
+        "stop" : 1596002232703,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ecb0e350be8ba7f",
+        "name" : "Request",
+        "source" : "3ecb0e350be8ba7f.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002232704,
+        "stop" : 1596002232728,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "864a995c5e4af840",
+        "name" : "Request",
+        "source" : "864a995c5e4af840.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "45c2177f60c9310",
+        "name" : "Response",
+        "source" : "45c2177f60c9310.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/43238ecb-1114-468b-bdc5-47dabef8e1d1/clear",
+      "time" : {
+        "start" : 1596002232743,
+        "stop" : 1596002232794,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/43238ecb-1114-468b-bdc5-47dabef8e1d1/value",
+      "time" : {
+        "start" : 1596002232795,
+        "stop" : 1596002232889,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a22a5f5253660a20",
+        "name" : "Request",
+        "source" : "a22a5f5253660a20.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002232889,
+        "stop" : 1596002232909,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a1d751de9815770",
+        "name" : "Request",
+        "source" : "4a1d751de9815770.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "a15dce74652857cb",
+        "name" : "Response",
+        "source" : "a15dce74652857cb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/930df276-5fa8-4ddb-99d8-d9e563550370/click",
+      "time" : {
+        "start" : 1596002232913,
+        "stop" : 1596002235076,
+        "duration" : 2163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with 'standard_user' and 'secret_sauce'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb12f0df4db34a05.json",
+  "parameterValues" : [ "chrome" ]
+}

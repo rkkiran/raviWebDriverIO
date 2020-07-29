@@ -1,0 +1,135 @@
+{
+  "uid" : "6fe85032a2d028df",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+  "historyId" : "4058d625d3aa409fccec91e40e79d599",
+  "time" : {
+    "start" : 1596006441530,
+    "stop" : 1596006442023,
+    "duration" : 493
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596006441531,
+        "stop" : 1596006441553,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2f9e75fa9d03022",
+        "name" : "Request",
+        "source" : "e2f9e75fa9d03022.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "1ab1059b85081077",
+        "name" : "Response",
+        "source" : "1ab1059b85081077.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/de93cb3c-56be-43c7-a3bd-304f39aba837/text",
+      "time" : {
+        "start" : 1596006441555,
+        "stop" : 1596006441575,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f39cdbb4a65a2ff2",
+        "name" : "Response",
+        "source" : "f39cdbb4a65a2ff2.json",
+        "type" : "application/json",
+        "size" : 75
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596006441577,
+        "stop" : 1596006442021,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "261c810c2ce4b7c7",
+        "name" : "Screenshot",
+        "source" : "261c810c2ce4b7c7.png",
+        "type" : "image/png",
+        "size" : 72811
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fe85032a2d028df.json",
+  "parameterValues" : [ "chrome" ]
+}

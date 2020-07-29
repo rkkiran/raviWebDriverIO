@@ -1,0 +1,339 @@
+{
+  "uid" : "51b65db59824c5a7",
+  "name" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+  "historyId" : "97ac9074dded4b909e445f5490316fd4",
+  "time" : {
+    "start" : 1596007378089,
+    "stop" : 1596007379086,
+    "duration" : 997
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596007378090,
+        "stop" : 1596007378165,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c72ee28f1f1c4f",
+        "name" : "Request",
+        "source" : "5c72ee28f1f1c4f.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "a77d52be2c010faf",
+        "name" : "Response",
+        "source" : "a77d52be2c010faf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/e91516cf-21e1-483c-b135-8c4829447db2/click",
+      "time" : {
+        "start" : 1596007378171,
+        "stop" : 1596007378606,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596007378606,
+        "stop" : 1596007378661,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d95b8908e45a2b",
+        "name" : "Request",
+        "source" : "4d95b8908e45a2b.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "b7ef585daf8caef0",
+        "name" : "Response",
+        "source" : "b7ef585daf8caef0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2a6cde89-5974-4993-9311-d53acb184971/text",
+      "time" : {
+        "start" : 1596007378663,
+        "stop" : 1596007378688,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1d06115ec3ee6f7",
+        "name" : "Response",
+        "source" : "b1d06115ec3ee6f7.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596007378689,
+        "stop" : 1596007379084,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6432550f179a01b5",
+        "name" : "Screenshot",
+        "source" : "6432550f179a01b5.png",
+        "type" : "image/png",
+        "size" : 78969
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92a20efd388108c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007173564,
+        "stop" : 1596007174437,
+        "duration" : 873
+      }
+    }, {
+      "uid" : "94abc2fcfe4d25c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007104524,
+        "stop" : 1596007105197,
+        "duration" : 673
+      }
+    }, {
+      "uid" : "dbb6da73c53efdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007076912,
+        "stop" : 1596007077542,
+        "duration" : 630
+      }
+    }, {
+      "uid" : "c57f40c47224b72c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006992487,
+        "stop" : 1596006993098,
+        "duration" : 611
+      }
+    }, {
+      "uid" : "1a42503ea917fb04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006819652,
+        "stop" : 1596006820270,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "cac3966415faadfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006626617,
+        "stop" : 1596006627757,
+        "duration" : 1140
+      }
+    }, {
+      "uid" : "7704f749fb6c7168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006506164,
+        "stop" : 1596006507081,
+        "duration" : 917
+      }
+    }, {
+      "uid" : "420d549fc1f8900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006439375,
+        "stop" : 1596006440184,
+        "duration" : 809
+      }
+    }, {
+      "uid" : "cde2f1d47bbd0ecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006113987,
+        "stop" : 1596006114715,
+        "duration" : 728
+      }
+    }, {
+      "uid" : "341a388de46bd4ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006009148,
+        "stop" : 1596006010031,
+        "duration" : 883
+      }
+    }, {
+      "uid" : "bb8600de268e2d49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596005018522,
+        "stop" : 1596005019149,
+        "duration" : 627
+      }
+    }, {
+      "uid" : "ff722e7d1185e1da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004870705,
+        "stop" : 1596004871274,
+        "duration" : 569
+      }
+    }, {
+      "uid" : "7e1c83d55bb69c00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004449843,
+        "stop" : 1596004450653,
+        "duration" : 810
+      }
+    }, {
+      "uid" : "92ca8777e099092c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1596004403513,
+        "stop" : 1596004403513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9a97109bb180ebe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003808116,
+        "stop" : 1596003808789,
+        "duration" : 673
+      }
+    }, {
+      "uid" : "e3058bc359dee812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003624972,
+        "stop" : 1596003625646,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "bc51f3e237ce4aff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003539309,
+        "stop" : 1596003540006,
+        "duration" : 697
+      }
+    }, {
+      "uid" : "c1ab4b51e46f9de3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003282404,
+        "stop" : 1596003283631,
+        "duration" : 1227
+      }
+    }, {
+      "uid" : "5bc2a6972785b350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002380286,
+        "stop" : 1596002380913,
+        "duration" : 627
+      }
+    }, {
+      "uid" : "4a116e078e0cad6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002236637,
+        "stop" : 1596002237238,
+        "duration" : 601
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51b65db59824c5a7.json",
+  "parameterValues" : [ "chrome" ]
+}

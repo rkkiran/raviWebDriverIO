@@ -1,0 +1,234 @@
+{
+  "uid" : "217f391a49024874",
+  "name" : "When I login with 'someuser' and 'nopassword'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.When I login with 'someuser' and 'nopassword'",
+  "historyId" : "9e65f4ff3a6a7912cfca3bed84f93837",
+  "time" : {
+    "start" : 1596002237412,
+    "stop" : 1596002237883,
+    "duration" : 471
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002237412,
+        "stop" : 1596002237464,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebd23e77f7759fcb",
+        "name" : "Request",
+        "source" : "ebd23e77f7759fcb.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "3c2b9af1616ebdd",
+        "name" : "Response",
+        "source" : "3c2b9af1616ebdd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/136e7475-5b2e-401d-9531-f1be35bb1f0a/clear",
+      "time" : {
+        "start" : 1596002237466,
+        "stop" : 1596002237521,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/136e7475-5b2e-401d-9531-f1be35bb1f0a/value",
+      "time" : {
+        "start" : 1596002237522,
+        "stop" : 1596002237617,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dbb79a994a4a5c6",
+        "name" : "Request",
+        "source" : "6dbb79a994a4a5c6.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002237618,
+        "stop" : 1596002237633,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbb110fb6dc4ed2b",
+        "name" : "Request",
+        "source" : "bbb110fb6dc4ed2b.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "364f36042c835686",
+        "name" : "Response",
+        "source" : "364f36042c835686.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f34effdd-de50-45b5-a23a-0467f647d932/clear",
+      "time" : {
+        "start" : 1596002237635,
+        "stop" : 1596002237696,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/f34effdd-de50-45b5-a23a-0467f647d932/value",
+      "time" : {
+        "start" : 1596002237696,
+        "stop" : 1596002237780,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bc7a9810a4ba500",
+        "name" : "Request",
+        "source" : "9bc7a9810a4ba500.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596002237780,
+        "stop" : 1596002237798,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2af15337f0693556",
+        "name" : "Request",
+        "source" : "2af15337f0693556.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "bf8f03a19a361758",
+        "name" : "Response",
+        "source" : "bf8f03a19a361758.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/be9bd2a6-2f4b-4b6d-adba-3ff92bc9052d/click",
+      "time" : {
+        "start" : 1596002237800,
+        "stop" : 1596002237881,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with 'someuser' and 'nopassword'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "217f391a49024874.json",
+  "parameterValues" : [ "chrome" ]
+}

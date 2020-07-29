@@ -1,0 +1,297 @@
+{
+  "uid" : "589b2d3b275b7550",
+  "name" : "Then cheapest product should be removed successfully",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.Then cheapest product should be removed successfully",
+  "historyId" : "489b655ce993c89ebed40978666314fd",
+  "time" : {
+    "start" : 1596007377613,
+    "stop" : 1596007378089,
+    "duration" : 476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1596007377614,
+        "stop" : 1596007377627,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24ef07963818c21f",
+        "name" : "Request",
+        "source" : "24ef07963818c21f.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "fbde82dbb92cbd9c",
+        "name" : "Response",
+        "source" : "fbde82dbb92cbd9c.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1627c3a7-bd2a-429e-95c5-a4e5df47c684/text",
+      "time" : {
+        "start" : 1596007377634,
+        "stop" : 1596007377649,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca6f882c2f686a33",
+        "name" : "Response",
+        "source" : "ca6f882c2f686a33.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596007377650,
+        "stop" : 1596007378088,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d34b51d1a48f74f9",
+        "name" : "Screenshot",
+        "source" : "d34b51d1a48f74f9.png",
+        "type" : "image/png",
+        "size" : 85839
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then cheapest product should be removed successfully"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d05dd8ffa656e31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007172901,
+        "stop" : 1596007173564,
+        "duration" : 663
+      }
+    }, {
+      "uid" : "13f30bd093e99b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007104100,
+        "stop" : 1596007104524,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "b87e8ee53f15f116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007076500,
+        "stop" : 1596007076912,
+        "duration" : 412
+      }
+    }, {
+      "uid" : "a307bf3f06986bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006992087,
+        "stop" : 1596006992487,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "a96d973ae7edb010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006819216,
+        "stop" : 1596006819651,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "dba486669bbb8ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006625978,
+        "stop" : 1596006626617,
+        "duration" : 639
+      }
+    }, {
+      "uid" : "2f79f4d9c0f29932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006505742,
+        "stop" : 1596006506164,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "29b2cb8df409a043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006438993,
+        "stop" : 1596006439375,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "fc3e575f4cd233ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006113516,
+        "stop" : 1596006113987,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "e80156d09e199baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006008762,
+        "stop" : 1596006009148,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "5b718914bd3080de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596005018147,
+        "stop" : 1596005018522,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "698a28826bb74a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004870311,
+        "stop" : 1596004870704,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "d4224942f0c6e16c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004449413,
+        "stop" : 1596004449842,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "d5b595398b3c210e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1596004403512,
+        "stop" : 1596004403512,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6650fb6a0c62445a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003807668,
+        "stop" : 1596003808116,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "5810cbc46925175c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003624484,
+        "stop" : 1596003624972,
+        "duration" : 488
+      }
+    }, {
+      "uid" : "cc057b2e806713e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003538925,
+        "stop" : 1596003539309,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "c0db9f75eafc147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003281920,
+        "stop" : 1596003282404,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "7d41d6e4e427d958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002379825,
+        "stop" : 1596002380286,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "a70dd979fac66c9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002236580,
+        "stop" : 1596002236637,
+        "duration" : 57
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "589b2d3b275b7550.json",
+  "parameterValues" : [ "chrome" ]
+}

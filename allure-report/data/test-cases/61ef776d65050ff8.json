@@ -1,0 +1,118 @@
+{
+  "uid" : "61ef776d65050ff8",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Password is required'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.Then I should see a flash message saying 'Epic sadface: Password is required'",
+  "historyId" : "453303d0e5469dc694d9fc14489d30c2",
+  "time" : {
+    "start" : 1596004408255,
+    "stop" : 1596004408612,
+    "duration" : 357
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveText",
+  "statusTrace" : "Error: Invalid Chai property: toHaveText\n                    at Object.proxyGetter [as get] (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at World.<anonymous> (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\features\\step-definitions\\saucedemo.steps.js:42:49)\n                    at World.executeSync (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveText",
+    "statusTrace" : "Error: Invalid Chai property: toHaveText\n                    at Object.proxyGetter [as get] (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at World.<anonymous> (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\features\\step-definitions\\saucedemo.steps.js:42:49)\n                    at World.executeSync (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596004408255,
+        "stop" : 1596004408265,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d3e7624db0b9537",
+        "name" : "Request",
+        "source" : "8d3e7624db0b9537.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "4a64cd8a2c203a8",
+        "name" : "Response",
+        "source" : "4a64cd8a2c203a8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596004408268,
+        "stop" : 1596004408610,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a955cc749bc5335",
+        "name" : "Screenshot",
+        "source" : "2a955cc749bc5335.png",
+        "type" : "image/png",
+        "size" : 72077
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying 'Epic sadface: Password is required'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61ef776d65050ff8.json",
+  "parameterValues" : [ "chrome" ]
+}

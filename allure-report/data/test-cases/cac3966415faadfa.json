@@ -1,0 +1,177 @@
+{
+  "uid" : "cac3966415faadfa",
+  "name" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+  "historyId" : "97ac9074dded4b909e445f5490316fd4",
+  "time" : {
+    "start" : 1596006626617,
+    "stop" : 1596006627757,
+    "duration" : 1140
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596006626618,
+        "stop" : 1596006626687,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ff269bf31d6cc3f",
+        "name" : "Request",
+        "source" : "7ff269bf31d6cc3f.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "5aea6de3e6ad3bc8",
+        "name" : "Response",
+        "source" : "5aea6de3e6ad3bc8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/99df1453-8a09-476d-a0b2-79a1b47df4c4/click",
+      "time" : {
+        "start" : 1596006626693,
+        "stop" : 1596006627259,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596006627259,
+        "stop" : 1596006627330,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb67e13a0e97d778",
+        "name" : "Request",
+        "source" : "eb67e13a0e97d778.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "9557a8ca64de1d94",
+        "name" : "Response",
+        "source" : "9557a8ca64de1d94.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2f0429b6-cf2b-4638-acfe-c039f8edc79d/text",
+      "time" : {
+        "start" : 1596006627333,
+        "stop" : 1596006627359,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "627ceb868b8a6a53",
+        "name" : "Response",
+        "source" : "627ceb868b8a6a53.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596006627360,
+        "stop" : 1596006627755,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ff1193102839a79",
+        "name" : "Screenshot",
+        "source" : "7ff1193102839a79.png",
+        "type" : "image/png",
+        "size" : 78969
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cac3966415faadfa.json",
+  "parameterValues" : [ "chrome" ]
+}

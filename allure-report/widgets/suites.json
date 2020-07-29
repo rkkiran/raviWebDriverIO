@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "0785c9e86b91cedd636e3f3b676ae077",
+    "name" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "23bbdb004d53d9c6676c483097887c83",
+    "name" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

@@ -1,0 +1,298 @@
+{
+  "uid" : "ee5cd05ac3868571",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Username is required'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.Then I should see a flash message saying 'Epic sadface: Username is required'",
+  "historyId" : "110996f728668116fe42512a46c08b6",
+  "time" : {
+    "start" : 1596007382034,
+    "stop" : 1596007382508,
+    "duration" : 474
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596007382035,
+        "stop" : 1596007382054,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29790d07960e2abf",
+        "name" : "Request",
+        "source" : "29790d07960e2abf.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "a3bb85fd6ec83182",
+        "name" : "Response",
+        "source" : "a3bb85fd6ec83182.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2536d807-1c62-4856-a5cf-e2d3ebab0bff/text",
+      "time" : {
+        "start" : 1596007382056,
+        "stop" : 1596007382075,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edcb975bb3180975",
+        "name" : "Response",
+        "source" : "edcb975bb3180975.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596007382076,
+        "stop" : 1596007382506,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b67b06eec97e83a8",
+        "name" : "Screenshot",
+        "source" : "b67b06eec97e83a8.png",
+        "type" : "image/png",
+        "size" : 71626
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying 'Epic sadface: Username is required'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f261e2ddfdc79969",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007178480,
+        "stop" : 1596007179102,
+        "duration" : 622
+      }
+    }, {
+      "uid" : "c1ac3e55717c8eaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007109121,
+        "stop" : 1596007109605,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "28ad9c31e8f841eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007080863,
+        "stop" : 1596007081518,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "a44429982c09bb51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006996138,
+        "stop" : 1596006996588,
+        "duration" : 450
+      }
+    }, {
+      "uid" : "7858e443051dffd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006823367,
+        "stop" : 1596006823815,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "7dbac297dfaa1a8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006631081,
+        "stop" : 1596006631575,
+        "duration" : 494
+      }
+    }, {
+      "uid" : "745b00b674aa3103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006510746,
+        "stop" : 1596006511155,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "9d1f1b19f0f05ced",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006443345,
+        "stop" : 1596006443765,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "b929b2697617a33f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006117865,
+        "stop" : 1596006118307,
+        "duration" : 442
+      }
+    }, {
+      "uid" : "35c8d03fe94f5e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006012996,
+        "stop" : 1596006013428,
+        "duration" : 432
+      }
+    }, {
+      "uid" : "a9886a34c91a4822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596005022346,
+        "stop" : 1596005022742,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "3bc683132907b9ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004874256,
+        "stop" : 1596004874668,
+        "duration" : 412
+      }
+    }, {
+      "uid" : "f6c9c9adc73220fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004453638,
+        "stop" : 1596004454094,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "d72996a169fe40ef",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveText",
+      "time" : {
+        "start" : 1596004406606,
+        "stop" : 1596004407011,
+        "duration" : 405
+      }
+    }, {
+      "uid" : "6660bffdd2e06664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003811921,
+        "stop" : 1596003812374,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "d0cfe06b844c2cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003628873,
+        "stop" : 1596003629342,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "c8b9e1ab886b9773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003543159,
+        "stop" : 1596003543638,
+        "duration" : 479
+      }
+    }, {
+      "uid" : "5cfdb6139b4b41be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003286789,
+        "stop" : 1596003287226,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "47902194e3728fd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002383898,
+        "stop" : 1596002384289,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "733244ec2ce1532f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002238416,
+        "stop" : 1596002238462,
+        "duration" : 46
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee5cd05ac3868571.json",
+  "parameterValues" : [ "chrome" ]
+}

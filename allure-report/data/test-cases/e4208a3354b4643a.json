@@ -1,0 +1,118 @@
+{
+  "uid" : "e4208a3354b4643a",
+  "name" : "When I am on 'Products' page I Sort the products by Price from drop down high to low",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.When I am on 'Products' page I Sort the products by Price from drop down high to low",
+  "historyId" : "5d0db3696a9cb1300edf3c48f925781a",
+  "time" : {
+    "start" : 1596004402995,
+    "stop" : 1596004403510,
+    "duration" : 515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveTextContaining",
+  "statusTrace" : "Error: Invalid Chai property: toHaveTextContaining\n                    at Object.proxyGetter [as get] (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at World.<anonymous> (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\features\\step-definitions\\saucedemo.steps.js:15:34)\n                    at World.executeSync (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveTextContaining",
+    "statusTrace" : "Error: Invalid Chai property: toHaveTextContaining\n                    at Object.proxyGetter [as get] (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at World.<anonymous> (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\features\\step-definitions\\saucedemo.steps.js:15:34)\n                    at World.executeSync (C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Ravikiran Kyamagutti\\Desktop\\Ravi\\WebdriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596004402996,
+        "stop" : 1596004403021,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9935662d260b5652",
+        "name" : "Request",
+        "source" : "9935662d260b5652.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "3093aae05f417135",
+        "name" : "Response",
+        "source" : "3093aae05f417135.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596004403027,
+        "stop" : 1596004403504,
+        "duration" : 477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d051365181248c5",
+        "name" : "Screenshot",
+        "source" : "2d051365181248c5.png",
+        "type" : "image/png",
+        "size" : 345022
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I am on 'Products' page I Sort the products by Price from drop down high to low"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4208a3354b4643a.json",
+  "parameterValues" : [ "chrome" ]
+}

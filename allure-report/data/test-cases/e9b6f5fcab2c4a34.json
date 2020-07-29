@@ -1,0 +1,204 @@
+{
+  "uid" : "e9b6f5fcab2c4a34",
+  "name" : "When I am on 'Products' page I Sort the products by Price from drop down high to low",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket.When I am on 'Products' page I Sort the products by Price from drop down high to low",
+  "historyId" : "5d0db3696a9cb1300edf3c48f925781a",
+  "time" : {
+    "start" : 1596006816386,
+    "stop" : 1596006817025,
+    "duration" : 639
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596006816387,
+        "stop" : 1596006816408,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b260a830727d11d",
+        "name" : "Request",
+        "source" : "7b260a830727d11d.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "345614dbfc5fcd9f",
+        "name" : "Response",
+        "source" : "345614dbfc5fcd9f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/fe898926-9947-49ef-9166-8e3614b9ae90/text",
+      "time" : {
+        "start" : 1596006816412,
+        "stop" : 1596006816434,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f575073d6029b8e",
+        "name" : "Response",
+        "source" : "4f575073d6029b8e.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596006816438,
+        "stop" : 1596006816464,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9389cbf32935bb6b",
+        "name" : "Request",
+        "source" : "9389cbf32935bb6b.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "a0b9c033467902f4",
+        "name" : "Response",
+        "source" : "a0b9c033467902f4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/8394d5b8-4845-485c-8eab-e995c27ab63e/elements",
+      "time" : {
+        "start" : 1596006816466,
+        "stop" : 1596006816490,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6e9da0851aace4b",
+        "name" : "Request",
+        "source" : "f6e9da0851aace4b.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "7edb121d313e1364",
+        "name" : "Response",
+        "source" : "7edb121d313e1364.json",
+        "type" : "application/json",
+        "size" : 366
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ec16c7e7-fb2f-4d68-a12c-ee52c172251b/click",
+      "time" : {
+        "start" : 1596006816490,
+        "stop" : 1596006816538,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596006816538,
+        "stop" : 1596006817021,
+        "duration" : 483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eda71a5bdad613da",
+        "name" : "Screenshot",
+        "source" : "eda71a5bdad613da.png",
+        "type" : "image/png",
+        "size" : 343474
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I am on 'Products' page I Sort the products by Price from drop down high to low"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9b6f5fcab2c4a34.json",
+  "parameterValues" : [ "chrome" ]
+}

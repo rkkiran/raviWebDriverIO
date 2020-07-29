@@ -1,0 +1,181 @@
+[ {
+  "uid" : "b4d64062857e5453",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1596007384177,
+    "stop" : 1596007384178,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "589c7c5e021f27d9",
+  "name" : "When I login with 'standard_user' and ''",
+  "time" : {
+    "start" : 1596007383060,
+    "stop" : 1596007383788,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f98967aeceb591fe",
+  "name" : "And I Remove the cheapest product from the basket",
+  "time" : {
+    "start" : 1596007377044,
+    "stop" : 1596007377613,
+    "duration" : 569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31b1baa790a0d2d8",
+  "name" : "When I am on 'Products' page I Sort the products by Price from drop down high to low",
+  "time" : {
+    "start" : 1596007374419,
+    "stop" : 1596007375102,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a85fa0ad751108",
+  "name" : "And I Add the two cheapest products to your basket",
+  "time" : {
+    "start" : 1596006817025,
+    "stop" : 1596006817949,
+    "duration" : 924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51b65db59824c5a7",
+  "name" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+  "time" : {
+    "start" : 1596007378089,
+    "stop" : 1596007379086,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94516ed5dcd12685",
+  "name" : "When I login with '' and ''",
+  "time" : {
+    "start" : 1596007381320,
+    "stop" : 1596007382034,
+    "duration" : 714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7267606f888956d4",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Password is required'",
+  "time" : {
+    "start" : 1596007383789,
+    "stop" : 1596007384177,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f05ac8244be2a876",
+  "name" : "Given I am on saucedemo login page",
+  "time" : {
+    "start" : 1596007370528,
+    "stop" : 1596007372008,
+    "duration" : 1480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "589b2d3b275b7550",
+  "name" : "Then cheapest product should be removed successfully",
+  "time" : {
+    "start" : 1596007377613,
+    "stop" : 1596007378089,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee5cd05ac3868571",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Username is required'",
+  "time" : {
+    "start" : 1596007382034,
+    "stop" : 1596007382508,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d66c9e9052922e7",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+  "time" : {
+    "start" : 1596007380385,
+    "stop" : 1596007380831,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d8795ed8252537a",
+  "name" : "Given I am on saucedemo login page",
+  "time" : {
+    "start" : 1596007382527,
+    "stop" : 1596007383059,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39b9e8f8651f85f5",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1596007379086,
+    "stop" : 1596007379086,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6426e13635861c6",
+  "name" : "When I login with 'someuser' and 'nopassword'",
+  "time" : {
+    "start" : 1596007379586,
+    "stop" : 1596007380385,
+    "duration" : 799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9541583ad7cf4106",
+  "name" : "When I login with 'standard_user' and 'secret_sauce'",
+  "time" : {
+    "start" : 1596007372008,
+    "stop" : 1596007374419,
+    "duration" : 2411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6284bc758bedcd0e",
+  "name" : "And I Add the two cheapest products to the basket",
+  "time" : {
+    "start" : 1596007375102,
+    "stop" : 1596007376136,
+    "duration" : 1034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79fcfff275256ad8",
+  "name" : "And I Open the basket",
+  "time" : {
+    "start" : 1596007376136,
+    "stop" : 1596007377044,
+    "duration" : 908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

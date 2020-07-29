@@ -1,0 +1,298 @@
+{
+  "uid" : "d66c9e9052922e7",
+  "name" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+  "fullName" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>.Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+  "historyId" : "4058d625d3aa409fccec91e40e79d599",
+  "time" : {
+    "start" : 1596007380385,
+    "stop" : 1596007380831,
+    "duration" : 446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1596007380386,
+        "stop" : 1596007380419,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e62c67be7f30c9b",
+        "name" : "Request",
+        "source" : "9e62c67be7f30c9b.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "95d428df297b76e",
+        "name" : "Response",
+        "source" : "95d428df297b76e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1ced9b91-2d6b-4fe2-9190-62d5186a06ff/text",
+      "time" : {
+        "start" : 1596007380422,
+        "stop" : 1596007380464,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79bfe3024392a90a",
+        "name" : "Response",
+        "source" : "79bfe3024392a90a.json",
+        "type" : "application/json",
+        "size" : 75
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1596007380466,
+        "stop" : 1596007380830,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a95089d9b4985d29",
+        "name" : "Screenshot",
+        "source" : "a95089d9b4985d29.png",
+        "type" : "image/png",
+        "size" : 72811
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testClass",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'"
+  }, {
+    "name" : "package",
+    "value" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dbc1307b0cce531f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007176229,
+        "stop" : 1596007176865,
+        "duration" : 636
+      }
+    }, {
+      "uid" : "eed756dbfce47734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007107064,
+        "stop" : 1596007107490,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "cd9584a11bc29387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007079173,
+        "stop" : 1596007079624,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "d12288e772b7682d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006994545,
+        "stop" : 1596006994942,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "211393c4885d3517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006821701,
+        "stop" : 1596006822135,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "3e65cca98f67e571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006629270,
+        "stop" : 1596006629754,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "e5101d23e49e3b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006508598,
+        "stop" : 1596006509338,
+        "duration" : 740
+      }
+    }, {
+      "uid" : "6fe85032a2d028df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006441530,
+        "stop" : 1596006442023,
+        "duration" : 493
+      }
+    }, {
+      "uid" : "bfe35709040303f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006116147,
+        "stop" : 1596006116586,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "9e44a97ed4f0bbf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006011305,
+        "stop" : 1596006011748,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "386a88fbf8560450",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596005020535,
+        "stop" : 1596005020996,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "499a2f93f6231ded",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004872545,
+        "stop" : 1596004873035,
+        "duration" : 490
+      }
+    }, {
+      "uid" : "95b55a9990c9609f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596004451903,
+        "stop" : 1596004452340,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "9a9b6c92e12c8f45",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveText",
+      "time" : {
+        "start" : 1596004404830,
+        "stop" : 1596004405280,
+        "duration" : 450
+      }
+    }, {
+      "uid" : "bb7d9945e73de5b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003810186,
+        "stop" : 1596003810699,
+        "duration" : 513
+      }
+    }, {
+      "uid" : "93a83926d3f222e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003627077,
+        "stop" : 1596003627517,
+        "duration" : 440
+      }
+    }, {
+      "uid" : "eeb404335882e9fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003541421,
+        "stop" : 1596003541858,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "d7c274714e080bd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596003284978,
+        "stop" : 1596003285461,
+        "duration" : 483
+      }
+    }, {
+      "uid" : "e14a2e722dbc6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002382150,
+        "stop" : 1596002382562,
+        "duration" : 412
+      }
+    }, {
+      "uid" : "2e8fbd0c338ee7ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596002237883,
+        "stop" : 1596002237936,
+        "duration" : 53
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d66c9e9052922e7.json",
+  "parameterValues" : [ "chrome" ]
+}

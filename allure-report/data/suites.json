@@ -1,0 +1,247 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Successfully add items to basket and remove an item from basket: Login as a standard_user user on saucedemo and add items to basket",
+    "children" : [ {
+      "name" : "And I Add the two cheapest products to your basket",
+      "uid" : "97a85fa0ad751108",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596006817025,
+        "stop" : 1596006817949,
+        "duration" : 924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I am on saucedemo login page",
+      "uid" : "f05ac8244be2a876",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007370528,
+        "stop" : 1596007372008,
+        "duration" : 1480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I login with 'standard_user' and 'secret_sauce'",
+      "uid" : "9541583ad7cf4106",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007372008,
+        "stop" : 1596007374419,
+        "duration" : 2411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I am on 'Products' page I Sort the products by Price from drop down high to low",
+      "uid" : "31b1baa790a0d2d8",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007374419,
+        "stop" : 1596007375102,
+        "duration" : 683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I Add the two cheapest products to the basket",
+      "uid" : "6284bc758bedcd0e",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007375102,
+        "stop" : 1596007376136,
+        "duration" : 1034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I Open the basket",
+      "uid" : "79fcfff275256ad8",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007376136,
+        "stop" : 1596007377044,
+        "duration" : 908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I Remove the cheapest product from the basket",
+      "uid" : "f98967aeceb591fe",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007377044,
+        "stop" : 1596007377613,
+        "duration" : 569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then cheapest product should be removed successfully",
+      "uid" : "589b2d3b275b7550",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007377613,
+        "stop" : 1596007378089,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I click on Checkout and I need to see 'Checkout: Your Information' text on header",
+      "uid" : "51b65db59824c5a7",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007378089,
+        "stop" : 1596007379086,
+        "duration" : 997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "39b9e8f8651f85f5",
+      "parentUid" : "0785c9e86b91cedd636e3f3b676ae077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007379086,
+        "stop" : 1596007379086,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "0785c9e86b91cedd636e3f3b676ae077"
+  }, {
+    "name" : "Successfully add items to basket and remove an item from basket: Error Message should be displayed when I login with <Sceniro>",
+    "children" : [ {
+      "name" : "When I login with 'someuser' and 'nopassword'",
+      "uid" : "d6426e13635861c6",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007379586,
+        "stop" : 1596007380385,
+        "duration" : 799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should see a flash message saying 'Epic sadface: Username and password do not match any user in this service'",
+      "uid" : "d66c9e9052922e7",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007380385,
+        "stop" : 1596007380831,
+        "duration" : 446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I login with '' and ''",
+      "uid" : "94516ed5dcd12685",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007381320,
+        "stop" : 1596007382034,
+        "duration" : 714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should see a flash message saying 'Epic sadface: Username is required'",
+      "uid" : "ee5cd05ac3868571",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007382034,
+        "stop" : 1596007382508,
+        "duration" : 474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I am on saucedemo login page",
+      "uid" : "3d8795ed8252537a",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007382527,
+        "stop" : 1596007383059,
+        "duration" : 532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I login with 'standard_user' and ''",
+      "uid" : "589c7c5e021f27d9",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007383060,
+        "stop" : 1596007383788,
+        "duration" : 728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should see a flash message saying 'Epic sadface: Password is required'",
+      "uid" : "7267606f888956d4",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007383789,
+        "stop" : 1596007384177,
+        "duration" : 388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "b4d64062857e5453",
+      "parentUid" : "23bbdb004d53d9c6676c483097887c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596007384177,
+        "stop" : 1596007384178,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "23bbdb004d53d9c6676c483097887c83"
+  } ]
+}

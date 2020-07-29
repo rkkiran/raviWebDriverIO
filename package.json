@@ -1,0 +1,32 @@
+{
+  "name": "webdriverio-ravi",
+  "version": "1.0.0",
+  "description": "This is my test webdriverio framework",
+  "main": "index.js",
+  "scripts": {
+    "open-allure": "./node_modules/.bin/allure generate ./Reports/allure-results --clean && allure open",
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "RaviKiran",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.3.0",
+    "@wdio/cli": "^6.3.5",
+    "@wdio/cucumber-framework": "^6.3.0",
+    "@wdio/junit-reporter": "^6.3.4",
+    "@wdio/local-runner": "^6.3.5",
+    "@wdio/spec-reporter": "^6.3.0",
+    "@wdio/sync": "^6.3.3",
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "chromedriver": "^84.0.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-junit-to-html": "^3.1.2",
+    "webdriverio": "^6.3.5"
+  },
+  "dependencies": {
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}
