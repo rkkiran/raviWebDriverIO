@@ -4,6 +4,7 @@ const Saucedemo = require('../pageobjects/checkout.page');
 
 Given(/^I am on saucedemo login page$/, () => {   
     Saucedemo.open();
+    browser.pause(5000);
 });
 
 When(/^I login with '(.*)' and '(.*)'/, (username, password) => {

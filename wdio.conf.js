@@ -106,7 +106,9 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: [
+        ['selenium-standalone', { drivers: { firefox: '0.28.0', chrome: true, chromiumedge: 'latest' } }]
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -126,17 +128,17 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [
-        [ 'junit', {
-            outputDir: './Reports/junit-report',
-            outputFileFormat: function(options){
-                return `junit-report.xml`
-            }
-        }],
-        ['allure', {
-            outputDir: './Reports/allure-results',
-            disableWebdriverStepsReporting: false,
-            disableWebdriverScreenshotsReporting: false,
-        }]
+        // [ 'junit', {
+        //     outputDir: './Reports/junit-report',
+        //     outputFileFormat: function(options){
+        //         return `junit-report.xml`
+        //     }
+        // }],
+        // ['allure', {
+        //     outputDir: './Reports/allure-results',
+        //     disableWebdriverStepsReporting: false,
+        //     disableWebdriverScreenshotsReporting: false,
+        // }]
     ],
 
 
@@ -241,8 +243,8 @@ exports.config = {
      * Runs after a Cucumber step
      */
     afterStep: function ({ uri, feature, step }, context, { error, result, duration, passed, retries }) {
-        var date = Date.now();
-        browser.saveScreenshot(`./Reports/screenShots/Chrom - ${date}.png`)
+        // var date = Date.now();
+        // browser.saveScreenshot(`./Reports/screenShots/Chrom - ${date}.png`)
     },
     /**
      * Runs after a Cucumber scenario
